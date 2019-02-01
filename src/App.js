@@ -7,7 +7,12 @@ import Footer from "./weather/Footer";
 
 class App extends Component {
   render() {
-    return <div className="App">My Weather App</div>;
+    return (
+      <div className="weather-channel__container">
+        <Header />
+        <Footer />
+      </div>
+    );
   }
 }
 

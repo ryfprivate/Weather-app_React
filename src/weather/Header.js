@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header(props) {
+export default function Header(props) {
   return (
     <header>
       <img className="header__logo" src="icon/logo.png" />
